@@ -1,0 +1,25 @@
+! --- الحاويات التسويقيّة الثابتة ---
+beta.traderscasa.com##.af-container
+beta.traderscasa.com##.af-features__container
+
+! --- الطبقة الرئيسيّة (التي تتبدّل أسماؤها) ---
+beta.traderscasa.com##div[id^="overlay-"]
+beta.traderscasa.com##div[id*="overlay"]
+beta.traderscasa.com##div[class*="overlay"]
+beta.traderscasa.com###overlay   
+! id ثابت أحيانًا
+
+! --- متغيّرات رُصِدَت بالاسم فى لقطة الشاشة ---
+beta.traderscasa.com##.overlay-g926yytzv
+beta.traderscasa.com##.overlay-gm24w0gf0
+beta.traderscasa.com##.overlay-z4d648xhi
+beta.traderscasa.com##.overlay-aoia840c5
+beta.traderscasa.com##.overlay-k3vbxlb4h
+
+! --- الحاوية العميقة داخل split-view ---
+beta.traderscasa.com##div.split-view-container > div > div.overlay
+
+! --- ويدجت TradingView (غير ضرورى إذا يزعجك) ---
+beta.traderscasa.com###tradingview_664db
+
+! == END ==
